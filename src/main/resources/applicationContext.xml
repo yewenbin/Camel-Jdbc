@@ -29,7 +29,7 @@
 	</bean>
 
 
-	<bean id="rowProcessor" class="com.javarticles.camel.RowProcessor">
+	<bean id="rowProcessor" class="com.nirakar.jdbc.camel.RowProcessor">
 	</bean>
 
 

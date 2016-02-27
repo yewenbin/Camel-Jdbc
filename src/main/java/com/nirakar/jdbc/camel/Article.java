@@ -1,3 +1,4 @@
+package com.nirakar.jdbc.camel;
 /*package com.javarticles.camel;
 
 public class Article {

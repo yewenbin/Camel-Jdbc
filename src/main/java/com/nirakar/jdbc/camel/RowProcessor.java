@@ -1,4 +1,4 @@
-package com.javarticles.camel;
+package com.nirakar.jdbc.camel;
 
 import java.math.BigDecimal;
 import java.util.Map;
