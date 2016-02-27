@@ -1,0 +1,23 @@
+2016-02-28 00:43:29,499 | INFO | AbstractApplicationContext.java 510 | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@ecf608: startup date [Sun Feb 28 00:43:29 IST 2016]; root of context hierarchy
+2016-02-28 00:43:29,562 | INFO | XmlBeanDefinitionReader.java 317 | Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-02-28 00:43:30,950 | INFO | DriverManagerDataSource.java 133 | Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2016-02-28 00:43:31,294 | INFO | DefaultCamelContext.java 2418 | Apache Camel 2.15.2 (CamelContext: camel-1) is starting
+2016-02-28 00:43:31,294 | INFO | ManagedManagementStrategy.java 187 | JMX is enabled
+2016-02-28 00:43:31,544 | INFO | DefaultTypeConverter.java 56 | Loaded 183 type converters
+2016-02-28 00:43:31,747 | INFO | DefaultCamelContext.java 2633 | AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2016-02-28 00:43:31,747 | INFO | DefaultCamelContext.java 2643 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2016-02-28 00:43:31,825 | INFO | DefaultCamelContext.java 3164 | Route: route1 started and consuming from: Endpoint[timer://timer1?period=2s]
+2016-02-28 00:43:31,825 | INFO | DefaultCamelContext.java 2453 | Total 1 routes, of which 1 is started.
+2016-02-28 00:43:31,825 | INFO | DefaultCamelContext.java 2454 | Apache Camel 2.15.2 (CamelContext: camel-1) started in 0.531 seconds
+2016-02-28 00:43:31,825 | INFO | DefaultCamelContext.java 2418 | Apache Camel 2.15.2 (CamelContext: camel-1) is starting
+2016-02-28 00:43:31,825 | INFO | DefaultCamelContext.java 2453 | Total 1 routes, of which 1 is started.
+2016-02-28 00:43:31,825 | INFO | DefaultCamelContext.java 2454 | Apache Camel 2.15.2 (CamelContext: camel-1) started in 0.000 seconds
+2016-02-28 00:43:32,854 | INFO | MarkerIgnoringBase.java 95 | select from Employee ------------------------->
+2016-02-28 00:43:33,120 | INFO | MarkerIgnoringBase.java 95 | split rows------------------------------------->
+2016-02-28 00:43:33,120 | INFO | MarkerIgnoringBase.java 95 | process row ----------------------------> {EMPID=1, EMPNAME=Nirakar}
+2016-02-28 00:43:33,838 | INFO | DefaultCamelContext.java 2660 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutting down
+2016-02-28 00:43:33,838 | INFO | DefaultShutdownStrategy.java 184 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2016-02-28 00:43:33,838 | INFO | DefaultShutdownStrategy.java 647 | Route: route1 shutdown complete, was consuming from: Endpoint[timer://timer1?period=2s]
+2016-02-28 00:43:33,838 | INFO | DefaultShutdownStrategy.java 247 | Graceful shutdown of 1 routes completed in 0 seconds
+2016-02-28 00:43:33,854 | INFO | DefaultCamelContext.java 2745 | Apache Camel 2.15.2 (CamelContext: camel-1) uptime 2.029 seconds
+2016-02-28 00:43:33,854 | INFO | DefaultCamelContext.java 2746 | Apache Camel 2.15.2 (CamelContext: camel-1) is shutdown in 0.016 seconds
